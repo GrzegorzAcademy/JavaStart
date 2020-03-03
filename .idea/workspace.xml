@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cb399d6-c352-4cb9-9a7f-d3a7c3af8714" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Table/ArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Table/Tables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Table/TablesTask/Tables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customer/calculator/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customer/calculator/CalcServis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Tables (1)">
+  <component name="RunManager" selected="Application.Calc">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PointAplication.App" />
       <module name="caJavaStart" />
@@ -72,9 +71,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bank" />
+    <configuration name="Calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="customer.calculator.Calc" />
       <module name="caJavaStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="customer.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calc" />
         <item itemvalue="Application.Tables (1)" />
         <item itemvalue="Application.Tables" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Calculate" />
-        <item itemvalue="Application.Bank" />
       </list>
     </recent_temporary>
   </component>
@@ -157,22 +162,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582739539099" />
-    <state width="1299" height="281" key="GridCell.Tab.0.bottom" timestamp="1583235321236">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1583240242205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1299" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583235321236" />
-    <state width="1299" height="281" key="GridCell.Tab.0.center" timestamp="1583235321236">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583240242205" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1583240242205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1299" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583235321236" />
-    <state width="1299" height="281" key="GridCell.Tab.0.left" timestamp="1583235321236">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583240242205" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1583240242205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1299" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583235321236" />
-    <state width="1299" height="281" key="GridCell.Tab.0.right" timestamp="1583235321236">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583240242205" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1583240242205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1299" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583235321236" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583240242205" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1583077590896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -201,6 +206,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582739702321" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1583239726768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1583239726768" />
     <state x="741" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1582985164883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

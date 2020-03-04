@@ -8,15 +8,15 @@ public class Hospital {
        if(regPatients<maxPatientsNumber){
            patients[regPatients]=patient;
            regPatients++;
-       }else{
+       } else {
            System.out.println("max na dziś");
        }
    }
-   void printPatients(){
+  public void printPatients(){
        for (int i = 0; i < regPatients; i++) {
            System.out.println(patients[i].getFirstName()
-                   + " "+ patients[i].getLastName()+ " " + patients[i].getPESEEL() );
-
+                   + " "+ patients[i].getLastName()+
+                   " " + patients[i].getPESEEL() );
        }
    }
 }

@@ -16,10 +16,10 @@ public class HospitalApp {
                 System.out.println(exit+ " -wyjscie z programu");
                 System.out.println(addPatient+ " dodanie pacjenta");
                 System.out.println(printPatient+ " wyswietlanie liczby pacjentów");
-
                 System.out.println("wybierz opcje ");
                 option = scanner.nextInt();
                 scanner.nextLine();
+
                 switch(option){
                     case addPatient:
                         Patient patient = new Patient();
@@ -29,12 +29,16 @@ public class HospitalApp {
                         patient.setLastName(scanner.nextLine());
                         System.out.println("Pessel");
                         patient.setPESEEL(scanner.nextLine());
+                        hospital.addPatients(patient);
                         break;
                     case printPatient:
                         hospital.printPatients();
                         break;
-                    default:
+                        case exit:
                         System.out.println("żegnaj użytkowniku ");
+                        break;
+                    default:
+                        System.out.println("nie znaleziono opcji");
                 }
         }
         scanner.close();

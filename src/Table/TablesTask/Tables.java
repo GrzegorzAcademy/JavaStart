@@ -1,5 +1,7 @@
 package Table.TablesTask;
 
+import java.util.Arrays;
+
 public class Tables {
     public static void main(String[] args) {
 
@@ -26,6 +28,8 @@ public class Tables {
                             {1.5,2.0,2.5},
                             {2.0,2.5,3.0}
         };
-
+        for (int i = 0; i < tab.length; i++) {
+            System.out.println(Arrays.toString(tab2[i]));
+        }
     }
 }

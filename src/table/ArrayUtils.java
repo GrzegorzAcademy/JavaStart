@@ -1,4 +1,4 @@
-package Table;
+package table;
 
 public class ArrayUtils {
     int tables(int Array1[],int Array2[] ){

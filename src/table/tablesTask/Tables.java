@@ -1,4 +1,4 @@
-package Table.TablesTask;
+package table.tablesTask;
 
 import java.util.Arrays;
 

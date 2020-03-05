@@ -1,7 +1,6 @@
-package PointAplication;
+package pointAplication;
 
 import Point.Point;
-import org.w3c.dom.ls.LSOutput;
 import pointmethod.PointControler;
 
 public class App {

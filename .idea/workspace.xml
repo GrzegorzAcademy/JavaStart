@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cb399d6-c352-4cb9-9a7f-d3a7c3af8714" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/students/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/students/University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customer/debug/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customer/inheritance/ExhoustParts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customer/inheritance/Part.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customer/inheritance/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customer/inheritance/Tire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customer/logic/LogicApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/caJavaStart/PointAplication/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/caJavaStart/PointAplication/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/caJavaStart/Table/ArrayUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/caJavaStart/Table/ArrayUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/caJavaStart/Table/Tables.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/caJavaStart/Table/Tables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/caJavaStart/Table/TablesTask/Tables.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/caJavaStart/Table/TablesTask/Tables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PointAplication/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pointAplication/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Table/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/table/ArrayUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Table/Tables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/table/Tables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Table/TablesTask/Tables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/table/tablesTask/Tables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/caJavaStart/pointmethod/PointControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/caJavaStart/pointmethod/PointControler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Point/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/point/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pointAplication/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pointAplication/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pointmethod/PointControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pointmethod/PointControler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +47,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.University">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loops.App" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="customer.debug.App" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loops.*" />
+          <option name="PATTERN" value="customer.debug.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tables (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Table.TablesTask.Tables" />
+    <configuration name="LogicApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="customer.logic.LogicApp" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Table.TablesTask.*" />
+          <option name="PATTERN" value="customer.logic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,25 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="table.Tables" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="customer.inheritance.Test" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="table.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="table.tablesTask.Tables" />
-      <module name="caJavaStart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="table.tablesTask.*" />
+          <option name="PATTERN" value="customer.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.LogicApp" />
         <item itemvalue="Application.University" />
         <item itemvalue="Application.HospitalApp" />
-        <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.Tables" />
-        <item itemvalue="Application.Tables (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -169,46 +156,46 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583414926841">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583494529280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583414926841" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583494529280" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582739539099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582739539099" />
-    <state width="1877" height="373" key="GridCell.Tab.0.bottom" timestamp="1583415845604">
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1583494731231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583415845604" />
-    <state width="1877" height="373" key="GridCell.Tab.0.center" timestamp="1583415845604">
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
+    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1583494731231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583415845604" />
-    <state width="1877" height="373" key="GridCell.Tab.0.left" timestamp="1583415845603">
+    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
+    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1583494731231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583415845603" />
-    <state width="1877" height="373" key="GridCell.Tab.0.right" timestamp="1583415845604">
+    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
+    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1583494731231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583415845604" />
-    <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1583077590896">
+    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583427125156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583077590896" />
-    <state width="938" height="348" key="GridCell.Tab.1.center" timestamp="1583077590895">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583427125156" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1583427125155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583077590895" />
-    <state width="938" height="348" key="GridCell.Tab.1.left" timestamp="1583077590895">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583427125155" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1583427125155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583077590895" />
-    <state width="938" height="348" key="GridCell.Tab.1.right" timestamp="1583077590895">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583427125155" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1583427125155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583077590895" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583427125155" />
     <state x="184" y="86" key="MergeDialog" timestamp="1582983833698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -225,6 +212,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1583239726768" />
+    <state x="690" y="275" key="extract.method.dialog" timestamp="1583424033938">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583424033938" />
     <state x="741" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1583242778106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -244,10 +235,15 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/pointAplication/App.java</url>
           <line>7</line>
-          <properties class="pointAplication.App" method="main">
+          <properties class="pointAplication.App">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/customer/debug/App.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

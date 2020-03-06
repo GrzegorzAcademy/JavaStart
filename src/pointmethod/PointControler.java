@@ -1,6 +1,6 @@
 package pointmethod;
 
-import Point.Point;
+import point.Point;
 
 public class PointControler {
    public void addX(Point point){

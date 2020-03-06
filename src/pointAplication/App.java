@@ -1,6 +1,6 @@
 package pointAplication;
 
-import Point.Point;
+import point.Point;
 import pointmethod.PointControler;
 
 public class App {

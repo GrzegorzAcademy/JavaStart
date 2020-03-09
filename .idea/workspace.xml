@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cb399d6-c352-4cb9-9a7f-d3a7c3af8714" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/customer/debug/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer/inheritance/ExhoustParts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer/inheritance/Part.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer/inheritance/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer/inheritance/Tire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer/logic/LogicApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fruits/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fruits/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fruits/GloceryShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/caJavaStart/pointmethod/PointControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/caJavaStart/pointmethod/PointControler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Point/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/point/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pointAplication/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pointAplication/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pointmethod/PointControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pointmethod/PointControler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +46,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.GloceryShop">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="customer.debug.App" />
       <module name="caJavaStart" />
@@ -67,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HospitalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loops.loopsTask.HospitalApp" />
+    <configuration name="GloceryShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fruits.GloceryShop" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loops.loopsTask.*" />
+          <option name="PATTERN" value="fruits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GloceryShop" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.LogicApp" />
         <item itemvalue="Application.University" />
-        <item itemvalue="Application.HospitalApp" />
       </list>
     </recent_temporary>
   </component>
@@ -156,30 +149,34 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583494529280">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583746086436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583494529280" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583746086436" />
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583746513369">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583746513369" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582739539099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582739539099" />
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1583494731231">
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1583746967013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1583494731231">
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583746967013" />
+    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1583746967013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1583494731231">
+    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583746967013" />
+    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1583746967013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1583494731231">
+    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583746967013" />
+    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1583746967013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
+    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583746967013" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583427125156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -224,10 +221,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583406821004" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583271586630">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583745341997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583271586630" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583745341997" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

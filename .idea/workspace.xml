@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cb399d6-c352-4cb9-9a7f-d3a7c3af8714" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fruits/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fruits/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fruits/GloceryShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfizm/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfizm/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfizm/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfizm/polimorfizmPerson/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfizm/polimorfizmPerson/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfizm/polimorfizmPerson/HospitalApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfizm/polimorfizmPerson/Nourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polimorfizm/polimorfizmPerson/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,20 +51,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.GloceryShop">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="customer.debug.App" />
-      <module name="caJavaStart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="customer.debug.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HospitalApp">
     <configuration name="GloceryShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fruits.GloceryShop" />
       <module name="caJavaStart" />
@@ -73,12 +65,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="customer.logic.LogicApp" />
+    <configuration name="Hospital" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polimorfizm.polimorfizmPerson.Hospital" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="customer.logic.*" />
+          <option name="PATTERN" value="polimorfizm.polimorfizmPerson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HospitalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polimorfizm.polimorfizmPerson.HospitalApp" />
+      <module name="caJavaStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="polimorfizm.polimorfizmPerson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="University" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="students.University" />
+    <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polimorfizm.polimorfizmPerson.Zoo" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="students.*" />
+          <option name="PATTERN" value="polimorfizm.polimorfizmPerson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HospitalApp" />
+        <item itemvalue="Application.Hospital" />
+        <item itemvalue="Application.Zoo" />
         <item itemvalue="Application.GloceryShop" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.LogicApp" />
-        <item itemvalue="Application.University" />
       </list>
     </recent_temporary>
   </component>
@@ -149,10 +154,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583746086436">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583760701884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583746086436" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583760701884" />
     <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583746513369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -161,22 +166,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582739539099" />
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1583746967013">
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1583763275983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583746967013" />
-    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1583746967013">
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583763275983" />
+    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1583763275983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583746967013" />
-    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1583746967013">
+    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583763275983" />
+    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1583763275983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583746967013" />
-    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1583746967013">
+    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583763275983" />
+    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1583763275983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583746967013" />
+    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583763275983" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583427125156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -221,10 +226,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583406821004" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583745341997">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583754637487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583745341997" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583754637487" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

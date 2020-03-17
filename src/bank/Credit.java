@@ -1,3 +1,5 @@
+package bank;
+
 public class Credit {
 Person borrower;
    int cashBrrowed;

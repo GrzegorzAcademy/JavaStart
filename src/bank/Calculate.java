@@ -1,3 +1,5 @@
+package bank;
+
 public class Calculate {
     public static void main(String[] args) {
         Calculator add = new Calculator();

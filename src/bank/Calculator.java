@@ -1,3 +1,5 @@
+package bank;
+
 public class Calculator {
     double add(double x, double y){
         return x+y;

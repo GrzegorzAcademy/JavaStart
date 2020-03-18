@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cb399d6-c352-4cb9-9a7f-d3a7c3af8714" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/abstractInterface/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/taskInterface/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/taskInterface/CalculateShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/taskInterface/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/taskInterface/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/taskInterface/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/taskInterface/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/ArraySorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractInterface/ShapeCalculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractInterface/ShapeCalculate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exeption/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exeption/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -62,13 +54,26 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.ArraySorter">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="taskInterface.App" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="taskInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraySorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.ArraySorter" />
+      <module name="caJavaStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,26 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="University" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="students.University" />
-      <module name="caJavaStart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="students.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraySorter" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.ShapeCalculate" />
         <item itemvalue="Application.NotebookShop" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.University" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +142,7 @@
       <updated>1582726280885</updated>
       <workItem from="1583845701630" duration="10167000" />
       <workItem from="1584009699226" duration="2359000" />
-      <workItem from="1584515475475" duration="8196000" />
+      <workItem from="1584515475475" duration="11355000" />
     </task>
     <servers />
   </component>
@@ -180,30 +172,34 @@
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="440" y="27" width="476" height="702" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.702@0.27.1366.702" timestamp="1584516898600" />
+    <state x="245" y="27" width="865" height="702" key="CommitChangelistDialog2" timestamp="1584543965414">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="245" y="27" width="865" height="702" key="CommitChangelistDialog2/0.27.1366.702@0.27.1366.702" timestamp="1584543965414" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582739539099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582739539099" />
-    <state width="1320" height="162" key="GridCell.Tab.0.bottom" timestamp="1584533592232">
+    <state width="1320" height="162" key="GridCell.Tab.0.bottom" timestamp="1584543831687">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="162" key="GridCell.Tab.0.bottom/0.27.1366.702@0.27.1366.702" timestamp="1584533592232" />
-    <state width="1320" height="162" key="GridCell.Tab.0.center" timestamp="1584533592231">
+    <state width="1320" height="162" key="GridCell.Tab.0.bottom/0.27.1366.702@0.27.1366.702" timestamp="1584543831687" />
+    <state width="1320" height="162" key="GridCell.Tab.0.center" timestamp="1584543831685">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="162" key="GridCell.Tab.0.center/0.27.1366.702@0.27.1366.702" timestamp="1584533592231" />
-    <state width="1320" height="162" key="GridCell.Tab.0.left" timestamp="1584533592230">
+    <state width="1320" height="162" key="GridCell.Tab.0.center/0.27.1366.702@0.27.1366.702" timestamp="1584543831685" />
+    <state width="1320" height="162" key="GridCell.Tab.0.left" timestamp="1584543831684">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="162" key="GridCell.Tab.0.left/0.27.1366.702@0.27.1366.702" timestamp="1584533592230" />
-    <state width="1320" height="162" key="GridCell.Tab.0.right" timestamp="1584533592231">
+    <state width="1320" height="162" key="GridCell.Tab.0.left/0.27.1366.702@0.27.1366.702" timestamp="1584543831684" />
+    <state width="1320" height="162" key="GridCell.Tab.0.right" timestamp="1584543831686">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="162" key="GridCell.Tab.0.right/0.27.1366.702@0.27.1366.702" timestamp="1584533592231" />
+    <state width="1320" height="162" key="GridCell.Tab.0.right/0.27.1366.702@0.27.1366.702" timestamp="1584543831686" />
     <state width="1320" height="203" key="GridCell.Tab.1.bottom" timestamp="1584533518535">
       <screen x="0" y="27" width="1366" height="702" />
     </state>

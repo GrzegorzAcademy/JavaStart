@@ -1,32 +1,28 @@
 package exeption;
 
-import java.time.chrono.IsoEra;
-import java.util.InputMismatchException;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int[] number = new int[2];
-        boolean error = true;
-        do{
-             try {
-                 System.out.println("podaj pirewsza liczbe");
-                 number[0] = scanner.nextInt();
-                System.out.println("podaj druga liczbe");
-                number[1] = scanner.nextInt();
-                 System.out.println("podaj która liczbe chcesz wyswietlic 1 czy 2");
-                 System.out.println("liczba : " + number[scanner.nextInt()-1]);
-                 error = false;
-        } catch (InputMismatchException e){
 
-            System.err.println("podana wartość nie jest liczbą całkowita");
-            scanner.nextLine();
 
-        }catch (ArrayIndexOutOfBoundsException e){
-                 System.out.println("podałeś lczbe z po za zakresu 1-2");
-                 scanner.nextLine();
-             }
-        } while (error);
-}
+        Scanner sc = new Scanner(System.in);
+        System.out.println("POdaj pierwszą liczbę");
+        int firstNumber = sc.nextInt();
+        sc.nextLine();
+        System.out.println("Podaj proszę drugą liczbę");
+        int lastNumber = sc.nextInt();
+        sc.nextLine();
+        System.out.println("podaj prosze operator działania jakie chcesz wykonać masz do wyboru /,* ,*, - ,+ ");
+        String operator = sc.nextLine();
+        switch (operator){
+            case "/":
+                try{
+                   int wynik =  firstNumber/lastNumber;
+                }catch (IllegalArgumentException e){
+                    System.out.println("nie dzielimy przez zero");
+                }
+        }
+    }
 }

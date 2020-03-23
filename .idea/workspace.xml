@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cb399d6-c352-4cb9-9a7f-d3a7c3af8714" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sort/ArraySorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/Fils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/filesSterilize/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/filesSterilize/CompanyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/filesSterilize/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/filesSterilize/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/SortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/Sorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/ArraySorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/ArraySorter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,13 +62,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.ArraySorter">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="taskInterface.App" />
+  <component name="RunManager" selected="Application.CompanyApp">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.App" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="taskInterface.*" />
+          <option name="PATTERN" value="files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,8 +76,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraySorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.ArraySorter" />
+    <configuration name="CompanyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.filesSterilize.CompanyApp" />
+      <module name="caJavaStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="files.filesSterilize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.Fils" />
+      <module name="caJavaStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.SortArray" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
@@ -81,38 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotebookShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="equals.NotebookShop" />
+    <configuration name="Sorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.Sorter" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="equals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShapeCalculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstractInterface.ShapeCalculate" />
-      <module name="caJavaStart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="abstractInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="customer.inheritance.Test" />
-      <module name="caJavaStart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="customer.inheritance.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArraySorter" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.ShapeCalculate" />
-        <item itemvalue="Application.NotebookShop" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.CompanyApp" />
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.Fils" />
+        <item itemvalue="Application.SortArray" />
+        <item itemvalue="Application.Sorter" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +150,9 @@
       <updated>1582726280885</updated>
       <workItem from="1583845701630" duration="10167000" />
       <workItem from="1584009699226" duration="2359000" />
-      <workItem from="1584515475475" duration="11355000" />
+      <workItem from="1584515475475" duration="15875000" />
+      <workItem from="1584558401606" duration="3268000" />
+      <workItem from="1584944226261" duration="11385000" />
     </task>
     <servers />
   </component>
@@ -163,63 +173,72 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="103" width="544" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1584530570420">
+    <state x="360" y="182" width="635" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584954966160">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="360" y="182" width="635" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.702@0.27.1366.702" timestamp="1584954966160" />
+    <state x="413" y="103" width="544" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1584953599615">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583494529280" />
-    <state x="413" y="103" width="544" height="626" key="#com.intellij.ide.util.MemberChooser/0.27.1366.702@0.27.1366.702" timestamp="1584530570420" />
-    <state x="440" y="27" width="476" height="702" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584516898600">
+    <state x="413" y="103" width="544" height="626" key="#com.intellij.ide.util.MemberChooser/0.27.1366.702@0.27.1366.702" timestamp="1584953599615" />
+    <state x="490" y="50" width="375" height="654" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1584949733918">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
-    <state x="440" y="27" width="476" height="702" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.702@0.27.1366.702" timestamp="1584516898600" />
+    <state x="490" y="50" width="375" height="654" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.27.1366.702@0.27.1366.702" timestamp="1584949733918" />
+    <state x="440" y="27" width="476" height="702" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584547065033">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="440" y="27" width="476" height="702" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.702@0.27.1366.702" timestamp="1584547065033" />
     <state x="245" y="27" width="865" height="702" key="CommitChangelistDialog2" timestamp="1584543965414">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="245" y="27" width="865" height="702" key="CommitChangelistDialog2/0.27.1366.702@0.27.1366.702" timestamp="1584543965414" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582739539099">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="526" y="186" width="452" height="543" key="FileChooserDialogImpl" timestamp="1584565480147">
+      <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582739539099" />
-    <state width="1320" height="162" key="GridCell.Tab.0.bottom" timestamp="1584543831687">
+    <state x="526" y="186" width="452" height="543" key="FileChooserDialogImpl/0.27.1366.702@0.27.1366.702" timestamp="1584565480147" />
+    <state width="1320" height="141" key="GridCell.Tab.0.bottom" timestamp="1584955213118">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="162" key="GridCell.Tab.0.bottom/0.27.1366.702@0.27.1366.702" timestamp="1584543831687" />
-    <state width="1320" height="162" key="GridCell.Tab.0.center" timestamp="1584543831685">
+    <state width="1320" height="141" key="GridCell.Tab.0.bottom/0.27.1366.702@0.27.1366.702" timestamp="1584955213118" />
+    <state width="1320" height="141" key="GridCell.Tab.0.center" timestamp="1584955213116">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="162" key="GridCell.Tab.0.center/0.27.1366.702@0.27.1366.702" timestamp="1584543831685" />
-    <state width="1320" height="162" key="GridCell.Tab.0.left" timestamp="1584543831684">
+    <state width="1320" height="141" key="GridCell.Tab.0.center/0.27.1366.702@0.27.1366.702" timestamp="1584955213116" />
+    <state width="1320" height="141" key="GridCell.Tab.0.left" timestamp="1584955213115">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="162" key="GridCell.Tab.0.left/0.27.1366.702@0.27.1366.702" timestamp="1584543831684" />
-    <state width="1320" height="162" key="GridCell.Tab.0.right" timestamp="1584543831686">
+    <state width="1320" height="141" key="GridCell.Tab.0.left/0.27.1366.702@0.27.1366.702" timestamp="1584955213115" />
+    <state width="1320" height="141" key="GridCell.Tab.0.right" timestamp="1584955213117">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="162" key="GridCell.Tab.0.right/0.27.1366.702@0.27.1366.702" timestamp="1584543831686" />
-    <state width="1320" height="203" key="GridCell.Tab.1.bottom" timestamp="1584533518535">
+    <state width="1320" height="141" key="GridCell.Tab.0.right/0.27.1366.702@0.27.1366.702" timestamp="1584955213117" />
+    <state width="1320" height="203" key="GridCell.Tab.1.bottom" timestamp="1584946451571">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583427125156" />
-    <state width="1320" height="203" key="GridCell.Tab.1.bottom/0.27.1366.702@0.27.1366.702" timestamp="1584533518535" />
-    <state width="1320" height="203" key="GridCell.Tab.1.center" timestamp="1584533518525">
+    <state width="1320" height="203" key="GridCell.Tab.1.bottom/0.27.1366.702@0.27.1366.702" timestamp="1584946451571" />
+    <state width="1320" height="203" key="GridCell.Tab.1.center" timestamp="1584946451569">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583427125155" />
-    <state width="1320" height="203" key="GridCell.Tab.1.center/0.27.1366.702@0.27.1366.702" timestamp="1584533518525" />
-    <state width="1320" height="203" key="GridCell.Tab.1.left" timestamp="1584533518523">
+    <state width="1320" height="203" key="GridCell.Tab.1.center/0.27.1366.702@0.27.1366.702" timestamp="1584946451569" />
+    <state width="1320" height="203" key="GridCell.Tab.1.left" timestamp="1584946451568">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583427125155" />
-    <state width="1320" height="203" key="GridCell.Tab.1.left/0.27.1366.702@0.27.1366.702" timestamp="1584533518523" />
-    <state width="1320" height="203" key="GridCell.Tab.1.right" timestamp="1584533518526">
+    <state width="1320" height="203" key="GridCell.Tab.1.left/0.27.1366.702@0.27.1366.702" timestamp="1584946451568" />
+    <state width="1320" height="203" key="GridCell.Tab.1.right" timestamp="1584946451571">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583427125155" />
-    <state width="1320" height="203" key="GridCell.Tab.1.right/0.27.1366.702@0.27.1366.702" timestamp="1584533518526" />
+    <state width="1320" height="203" key="GridCell.Tab.1.right/0.27.1366.702@0.27.1366.702" timestamp="1584946451570" />
     <state x="184" y="86" key="MergeDialog" timestamp="1582983833698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -249,6 +268,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583424033938" />
+    <state x="0" y="27" width="710" height="702" key="find.popup" timestamp="1584558477176">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="0" y="27" width="710" height="702" key="find.popup/0.27.1366.702@0.27.1366.702" timestamp="1584558477176" />
     <state x="741" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1583242778106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -262,11 +285,11 @@
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="379" y="27" width="598" height="702" key="refactoring.ChangeSignatureDialog/0.27.1366.702@0.27.1366.702" timestamp="1583848615759" />
-    <state x="443" y="179" width="672" height="458" key="search.everywhere.popup" timestamp="1584014741565">
+    <state x="443" y="179" width="672" height="458" key="search.everywhere.popup" timestamp="1584953925949">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583271586630" />
-    <state x="443" y="179" width="672" height="458" key="search.everywhere.popup/0.27.1366.702@0.27.1366.702" timestamp="1584014741565" />
+    <state x="443" y="179" width="672" height="458" key="search.everywhere.popup/0.27.1366.702@0.27.1366.702" timestamp="1584953925949" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

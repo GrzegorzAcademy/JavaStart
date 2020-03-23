@@ -1,6 +1,6 @@
 package sort;
 
-public class ArraySorter {
+public class Sorter {
     public static void main(String[] args) {
 
 
@@ -14,28 +14,28 @@ public class ArraySorter {
                             temp = tab1[j];
                             tab1[j] = tab1[j - 1];
                             tab1[j - 1] = temp;
-
                         }
                     }
                 }
             }
         };
-        int[] tab = {10, 8, 6, 4, 2, 1, 3, 5, 7, 9};
-       printArray(tab);
-       sorter.sort(tab);
-       printArray(tab);
+        int[] tab = {10, 8, 6, 4, 2, 0, 1, 3, 5, 7, 9};
+        printArray(tab);
+        sorter.sort(tab);
+        printArray(tab);
 
     }
 
     static void printArray(int[] tab1) {
         for (int value : tab1) {
-            System.out.print(value + "  ");
+            System.out.print(value + " ");
+
         }
         System.out.println();
+
+    }
+
+    interface Sortable {
+        void sort(int[] tab);
     }
 }
-
-interface  Sortable {
-    void sort(int[] tab);
-}
-

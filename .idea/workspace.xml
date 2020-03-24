@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cb399d6-c352-4cb9-9a7f-d3a7c3af8714" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/numbers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bigNumber/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rekurencja/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typyGeneryczne/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typyGeneryczne/Conatiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typyGeneryczne/IntConatiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typyGeneryczne/StringContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typyGeneryczne/task/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typyGeneryczne/task/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,13 +65,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (2)">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="files.App" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bigNumber.App" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="files.*" />
+          <option name="PATTERN" value="bigNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bigNumber.App" />
+    <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="typyGeneryczne.App" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bigNumber.*" />
+          <option name="PATTERN" value="typyGeneryczne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="files.Fils" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="typyGeneryczne.task.Test" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="files.*" />
+          <option name="PATTERN" value="typyGeneryczne.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.CompanyApp" />
-        <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.Fils" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +157,8 @@
       <workItem from="1584558401606" duration="3268000" />
       <workItem from="1584944226261" duration="11385000" />
       <workItem from="1584976608561" duration="69000" />
-      <workItem from="1585037585080" duration="4943000" />
+      <workItem from="1585037585080" duration="8153000" />
+      <workItem from="1585049366003" duration="3636000" />
     </task>
     <servers />
   </component>
@@ -179,11 +183,11 @@
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="360" y="182" width="635" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.702@0.27.1366.702" timestamp="1584954966160" />
-    <state x="413" y="103" width="544" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1584953599615">
+    <state x="413" y="103" width="544" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1585053243620">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583494529280" />
-    <state x="413" y="103" width="544" height="626" key="#com.intellij.ide.util.MemberChooser/0.27.1366.702@0.27.1366.702" timestamp="1584953599615" />
+    <state x="413" y="103" width="544" height="626" key="#com.intellij.ide.util.MemberChooser/0.27.1366.702@0.27.1366.702" timestamp="1585053243620" />
     <state x="490" y="50" width="375" height="654" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1584949733918">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
@@ -201,26 +205,26 @@
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582739539099" />
     <state x="526" y="186" width="452" height="543" key="FileChooserDialogImpl/0.27.1366.702@0.27.1366.702" timestamp="1584565480147" />
-    <state width="1320" height="191" key="GridCell.Tab.0.bottom" timestamp="1585044026218">
+    <state width="1320" height="191" key="GridCell.Tab.0.bottom" timestamp="1585052897795">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="191" key="GridCell.Tab.0.bottom/0.27.1366.702@0.27.1366.702" timestamp="1585044026218" />
-    <state width="1320" height="191" key="GridCell.Tab.0.center" timestamp="1585044026216">
+    <state width="1320" height="191" key="GridCell.Tab.0.bottom/0.27.1366.702@0.27.1366.702" timestamp="1585052897795" />
+    <state width="1320" height="191" key="GridCell.Tab.0.center" timestamp="1585052897792">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="191" key="GridCell.Tab.0.center/0.27.1366.702@0.27.1366.702" timestamp="1585044026216" />
-    <state width="1320" height="191" key="GridCell.Tab.0.left" timestamp="1585044026215">
+    <state width="1320" height="191" key="GridCell.Tab.0.center/0.27.1366.702@0.27.1366.702" timestamp="1585052897792" />
+    <state width="1320" height="191" key="GridCell.Tab.0.left" timestamp="1585052897790">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="191" key="GridCell.Tab.0.left/0.27.1366.702@0.27.1366.702" timestamp="1585044026215" />
-    <state width="1320" height="191" key="GridCell.Tab.0.right" timestamp="1585044026217">
+    <state width="1320" height="191" key="GridCell.Tab.0.left/0.27.1366.702@0.27.1366.702" timestamp="1585052897790" />
+    <state width="1320" height="191" key="GridCell.Tab.0.right" timestamp="1585052897794">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="191" key="GridCell.Tab.0.right/0.27.1366.702@0.27.1366.702" timestamp="1585044026217" />
+    <state width="1320" height="191" key="GridCell.Tab.0.right/0.27.1366.702@0.27.1366.702" timestamp="1585052897794" />
     <state width="1320" height="203" key="GridCell.Tab.1.bottom" timestamp="1584946451571">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
@@ -287,10 +291,10 @@
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="379" y="27" width="598" height="702" key="refactoring.ChangeSignatureDialog/0.27.1366.702@0.27.1366.702" timestamp="1583848615759" />
-    <state x="347" y="165" key="run.anything.popup" timestamp="1585041376621">
+    <state x="347" y="165" key="run.anything.popup" timestamp="1585051898676">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
-    <state x="347" y="165" key="run.anything.popup/0.27.1366.702@0.27.1366.702" timestamp="1585041376621" />
+    <state x="347" y="165" key="run.anything.popup/0.27.1366.702@0.27.1366.702" timestamp="1585051898676" />
     <state x="443" y="179" width="672" height="458" key="search.everywhere.popup" timestamp="1584953925949">
       <screen x="0" y="27" width="1366" height="702" />
     </state>

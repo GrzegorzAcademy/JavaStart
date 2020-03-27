@@ -15,23 +15,21 @@ public class SumNumbers {
         printNumbers(listNumbers);
     }
     private static void printNumbers(List<Double> listNumbers) {
-        if (!listNumbers.isEmpty()){
-
+        if (!listNumbers.isEmpty()) {
+            double sum = 0;
+            StringBuilder sb = new StringBuilder();
+            for (Double d : listNumbers) {
+                sb.append(d);
+                sb.append(" + ");
+                sum += d;
+            }
+            sb.replace(sb.length() - 1, sb.length(), " = ");
+            sb.append(sum);
+            System.out.println(sb.toString());
         }
-        double sum = 0;
-        StringBuilder sb = new StringBuilder();
-        for (Double d : listNumbers) {
-            sb.append(d);
-            sb.append(" + ");
-            sum+=d;
-        }
-        sb.replace(sb.length()-1, sb.length() , " = ");
-        sb.append(sum);
-        System.out.println(sb.toString());
     }
-
     private static void sumNumbers(List<Double> listNumbers) {
-        System.out.println("podaj liczbę lun wpisz exit");
+        System.out.println("podaj liczbę lub wpisz exit");
         String input = sc.nextLine();
         if (input.equals(EXIT)) {
             return;

@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cb399d6-c352-4cb9-9a7f-d3a7c3af8714" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/operationToTable/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operationToTable/TableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operationToTable/task/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operationToTable/task/PersonDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operationToTable/task/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparator/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparator/ProductCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparator/ProductNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparator/task1/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/ListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/ListExampleContinue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/task/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/task/task1/SumNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,24 +56,27 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="comparator" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operationToTable.App" />
+  <component name="RunManager" selected="Application.SumNumbers">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.task.App" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operationToTable.*" />
+          <option name="PATTERN" value="list.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonDatabase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operationToTable.task.PersonDatabase" />
+    <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.ListExample" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operationToTable.task.*" />
+          <option name="PATTERN" value="list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operationToTable.TableExample" />
+    <configuration name="ListExepmleContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.ListExepmleContinue" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operationToTable.*" />
+          <option name="PATTERN" value="list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operationToTable.task.Test" />
+    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparator.task1.Numbers" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operationToTable.task.*" />
+          <option name="PATTERN" value="comparator.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="typyGeneryczne.task.Test" />
+    <configuration name="SumNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.task.task1.SumNumbers" />
       <module name="caJavaStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="typyGeneryczne.task.*" />
+          <option name="PATTERN" value="list.task.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.PersonDatabase" />
-        <item itemvalue="Application.TableExample" />
-        <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.SumNumbers" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.ListExepmleContinue" />
+        <item itemvalue="Application.ListExample" />
+        <item itemvalue="Application.Numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +163,11 @@
       <workItem from="1584944226261" duration="11385000" />
       <workItem from="1584976608561" duration="69000" />
       <workItem from="1585037585080" duration="8153000" />
-      <workItem from="1585049366003" duration="14859000" />
+      <workItem from="1585049366003" duration="15038000" />
+      <workItem from="1585218804524" duration="2735000" />
+      <workItem from="1585237987197" duration="214000" />
+      <workItem from="1585238965635" duration="2779000" />
+      <workItem from="1585291517867" duration="19456000" />
     </task>
     <servers />
   </component>
@@ -182,11 +192,11 @@
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="360" y="182" width="635" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.702@0.27.1366.702" timestamp="1584954966160" />
-    <state x="413" y="103" width="544" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1585069515731">
+    <state x="413" y="103" width="544" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1585299943157">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583494529280" />
-    <state x="413" y="103" width="544" height="626" key="#com.intellij.ide.util.MemberChooser/0.27.1366.702@0.27.1366.702" timestamp="1585069515731" />
+    <state x="413" y="103" width="544" height="626" key="#com.intellij.ide.util.MemberChooser/0.27.1366.702@0.27.1366.702" timestamp="1585299943157" />
     <state x="490" y="50" width="375" height="654" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1584949733918">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
@@ -204,46 +214,46 @@
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582739539099" />
     <state x="526" y="186" width="452" height="543" key="FileChooserDialogImpl/0.27.1366.702@0.27.1366.702" timestamp="1584565480147" />
-    <state width="1320" height="191" key="GridCell.Tab.0.bottom" timestamp="1585070122868">
+    <state width="1320" height="191" key="GridCell.Tab.0.bottom" timestamp="1585318736666">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="191" key="GridCell.Tab.0.bottom/0.27.1366.702@0.27.1366.702" timestamp="1585070122868" />
-    <state width="1320" height="191" key="GridCell.Tab.0.center" timestamp="1585070122867">
+    <state width="1320" height="191" key="GridCell.Tab.0.bottom/0.27.1366.702@0.27.1366.702" timestamp="1585318736666" />
+    <state width="1320" height="191" key="GridCell.Tab.0.center" timestamp="1585318736664">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="191" key="GridCell.Tab.0.center/0.27.1366.702@0.27.1366.702" timestamp="1585070122867" />
-    <state width="1320" height="191" key="GridCell.Tab.0.left" timestamp="1585070122866">
+    <state width="1320" height="191" key="GridCell.Tab.0.center/0.27.1366.702@0.27.1366.702" timestamp="1585318736664" />
+    <state width="1320" height="191" key="GridCell.Tab.0.left" timestamp="1585318736663">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="191" key="GridCell.Tab.0.left/0.27.1366.702@0.27.1366.702" timestamp="1585070122866" />
-    <state width="1320" height="191" key="GridCell.Tab.0.right" timestamp="1585070122868">
+    <state width="1320" height="191" key="GridCell.Tab.0.left/0.27.1366.702@0.27.1366.702" timestamp="1585318736662" />
+    <state width="1320" height="191" key="GridCell.Tab.0.right" timestamp="1585318736665">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583494731231" />
-    <state width="1320" height="191" key="GridCell.Tab.0.right/0.27.1366.702@0.27.1366.702" timestamp="1585070122868" />
-    <state width="1320" height="203" key="GridCell.Tab.1.bottom" timestamp="1584946451571">
+    <state width="1320" height="191" key="GridCell.Tab.0.right/0.27.1366.702@0.27.1366.702" timestamp="1585318736665" />
+    <state width="1320" height="203" key="GridCell.Tab.1.bottom" timestamp="1585317654800">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583427125156" />
-    <state width="1320" height="203" key="GridCell.Tab.1.bottom/0.27.1366.702@0.27.1366.702" timestamp="1584946451571" />
-    <state width="1320" height="203" key="GridCell.Tab.1.center" timestamp="1584946451569">
+    <state width="1320" height="203" key="GridCell.Tab.1.bottom/0.27.1366.702@0.27.1366.702" timestamp="1585317654800" />
+    <state width="1320" height="203" key="GridCell.Tab.1.center" timestamp="1585317654797">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583427125155" />
-    <state width="1320" height="203" key="GridCell.Tab.1.center/0.27.1366.702@0.27.1366.702" timestamp="1584946451569" />
-    <state width="1320" height="203" key="GridCell.Tab.1.left" timestamp="1584946451568">
+    <state width="1320" height="203" key="GridCell.Tab.1.center/0.27.1366.702@0.27.1366.702" timestamp="1585317654797" />
+    <state width="1320" height="203" key="GridCell.Tab.1.left" timestamp="1585317654796">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583427125155" />
-    <state width="1320" height="203" key="GridCell.Tab.1.left/0.27.1366.702@0.27.1366.702" timestamp="1584946451568" />
-    <state width="1320" height="203" key="GridCell.Tab.1.right" timestamp="1584946451571">
+    <state width="1320" height="203" key="GridCell.Tab.1.left/0.27.1366.702@0.27.1366.702" timestamp="1585317654796" />
+    <state width="1320" height="203" key="GridCell.Tab.1.right" timestamp="1585317654799">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583427125155" />
-    <state width="1320" height="203" key="GridCell.Tab.1.right/0.27.1366.702@0.27.1366.702" timestamp="1584946451570" />
+    <state width="1320" height="203" key="GridCell.Tab.1.right/0.27.1366.702@0.27.1366.702" timestamp="1585317654799" />
     <state x="184" y="86" key="MergeDialog" timestamp="1582983833698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -253,10 +263,11 @@
     </state>
     <state x="672" y="236" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582983835598" />
     <state x="478" y="165" width="580" height="564" key="MultipleFileMergeDialog/0.27.1366.702@0.27.1366.702" timestamp="1584515566097" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1582739702321">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="313" y="27" width="1024" height="702" key="SettingsEditor" timestamp="1585312212579">
+      <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582739702321" />
+    <state x="313" y="27" width="1024" height="702" key="SettingsEditor/0.27.1366.702@0.27.1366.702" timestamp="1585312212579" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1583239726768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -290,10 +301,10 @@
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="379" y="27" width="598" height="702" key="refactoring.ChangeSignatureDialog/0.27.1366.702@0.27.1366.702" timestamp="1585059393962" />
-    <state x="347" y="165" key="run.anything.popup" timestamp="1585051898676">
+    <state x="347" y="165" key="run.anything.popup" timestamp="1585299311520">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
-    <state x="347" y="165" key="run.anything.popup/0.27.1366.702@0.27.1366.702" timestamp="1585051898676" />
+    <state x="347" y="165" key="run.anything.popup/0.27.1366.702@0.27.1366.702" timestamp="1585299311520" />
     <state x="443" y="179" width="672" height="458" key="search.everywhere.popup" timestamp="1584953925949">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
